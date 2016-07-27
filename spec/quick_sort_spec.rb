@@ -19,14 +19,6 @@ describe QuickSort do
     end
   end
 
-  describe "sort1" do
-    it "sorts an array" do
-      arr = [5, 3, 4, 2, 1, 6]
-      QuickSort.sort1(arr)
-      expect(arr).to eq([1, 2, 3, 4, 5, 6])
-    end
-  end
-
   describe "sort2!" do
     it "sorts an array" do
       arr = [5, 3, 4, 2, 1, 6]
